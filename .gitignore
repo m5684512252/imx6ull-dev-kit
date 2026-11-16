@@ -1,0 +1,42 @@
+# ---- 编译产物 / 二进制（不入库，用 Release 或本地存放）----
+prebuilt/
+*.exe
+*.elf
+*.bin
+*.imx
+*.dtb
+*.ko
+*.o
+*.a
+*.so
+zImage
+Image
+vmlinux
+
+# ---- 图片 / 截图（排障临时产物）----
+*.png
+*.jpg
+*.jpeg
+*.gif
+vm_window.png
+vm_state*.png
+vm_now.png
+
+# ---- 日志 / 临时文件 ----
+*.log
+build.log
+*.tmp
+*.bak
+*~
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
